@@ -22,6 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.timeyaa.flutter_nordic_dfu'
+
     compileSdkVersion 31
 
     defaultConfig {
